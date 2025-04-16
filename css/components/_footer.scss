@@ -1,0 +1,23 @@
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.wrapper-footer{
+    display: flex;
+    margin: auto 0;
+    justify-content: center;
+    background-color: rgba($color: #000000, $alpha: 0.5);
+    flex-direction: column;
+    align-items: center;
+    
+    a{
+        color: floralwhite;
+        &:hover {transform: scale(1.02);}
+    }
+    p{
+        color: floralwhite;
+        font-size: calc(70%);
+    }
+}
